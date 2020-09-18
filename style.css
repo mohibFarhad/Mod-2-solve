@@ -1,3 +1,75 @@
-body {
- color: red;
+* {
+    background: #e0e0e0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    padding: 30px;
+}
+
+.box {
+    float: left;
+    width: 33.33%;
+    height: auto;
+    padding: 2px;
+    border: 1px solid black;
+    position: relative;
+    background: darkgrey;
+}
+
+.topright {
+    border: 1px solid black;
+    position: absolute;
+    width: 25%;
+    height: 20%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    
+
+}
+
+p {
+    padding-top: 35px;
+    text-align: center;
+    background: darkgrey;
+}
+.ch {
+    background: burlywood;
+    text-align: center;
+}
+
+.bf {
+    background: cornsilk;
+    text-align: center;
+}
+
+.su {
+    background: darkcyan;
+    text-align: center;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .one, .two {
+        width: 50%;
+        padding: 10px;
+        margin: 20px;
+    }
+    .three {
+        width: 100%;
+        padding: 10px;
+        margin: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .one, .two, .three {
+        width: 100%;
+        padding: 10px;
+        margin: 20px;
+    }
 }
