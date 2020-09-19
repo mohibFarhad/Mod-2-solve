@@ -80,7 +80,7 @@ p {
 
 @media (max-width: 767px) {
     .one, .two, .three {
-        width: 100%;
+        width: 98%;
         padding: 10px;
         margin: 20px;
     }
